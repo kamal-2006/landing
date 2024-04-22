@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/purple-sunset-steed-edwards.jpg");
+  height: 100vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(120%) contrast(100%);
+}
+
+.header {
+  background-color: #AFEEEE;
+  color: rgb(80, 223, 92);
+  padding: 10px;
+  text-align: left;
+}
+
+.header > p {
+  color: green;
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header > p:hover {
+  background-color: plum;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.landing-page,
+.login-page {
+  text-align: center;
+  padding: 50px;
+  color: cyan;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: yellow;
+}
+
+#login h2 {
+  color: white;
+}
+
+nav{
+  float:right;
+  margin-bottom: 100px;
+}
+
